@@ -13,14 +13,14 @@
 .TEMP-250px{ height: 250px;}
 .TEMP-h200px{height: 200px;}
 .TEMP-280px{ height: 280px;}
-.TEMP-h300px{ height: 300px;}
+.TEMP-h300px{ height: 500px;}
 .TEMP-h400px{ height: 400px;}
 .TEMP-h500px{ height: 500px;}
 
 /* Colors */
-.bg-blue-sky{  background-color: #add8e6;}
-.bg-oro{   background-color: #daa520;}
-.bg-blu{   background-color: #04008b;}
+/* .bg-blue-sky{  background-color: #add8e6;} */
+/* .bg-oro{   background-color: #daa520;} */
+/* .bg-blu{   background-color: #04008b;} */
 .bg-viola{   background-color: #ee82ee;}
 .bg-celeste{   background-color: #1e90ff;}
 .bg-rosa{   background-color: #ffc0cb;}
@@ -31,6 +31,10 @@
 .bg-acqua-marina{   background-color: #7fffd4;}
 .bg-nero{   background-color: black;}
 .bg-grigio-scuro{  background-color: rgb(82, 82, 82);}
+
+.test-white{
+  color: white;
+}
 
 /* Col Widths */
 
@@ -48,7 +52,9 @@
 .border-none{ border: none;}
 
 /* Positionings */
-
+.d-inline-block{
+  display: inline-block;
+}
 .m-0-auto{ margin: 0 auto; }
 .d-flex{ display: flex;}
 
@@ -58,7 +64,11 @@
   align-items: center;
 }
 
-
+.bg-img-header{
+  background-image: url("./img/jumbo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .header-background{
   padding-top: 10px;
 }
