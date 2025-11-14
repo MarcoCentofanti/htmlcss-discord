@@ -177,3 +177,20 @@ button.login:hover{
   background-color: blueviolet;
   color: white;
 }
+
+.img-chat{
+  width: 40%;
+}
+
+div.description {
+  align-self: flex-start;
+ margin-bottom: 20px;
+ padding-top: 32px;
+}
+div.description h2{
+ margin-bottom: 20px;
+}
+
+.description{
+  width: 15%;
+}
