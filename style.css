@@ -130,3 +130,50 @@ padding-left: 5px;
   
 }
 
+header h1{
+  color: white;
+  text-align: center;
+
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+header p {
+  color: white;
+  text-align: center;
+
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn-dwnld{
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 17% / 45%;
+}
+
+.btn-brws{
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 11% / 45%;
+}
+
+.test{
+  justify-content: center;
+  gap: 25px;
+}
+
+button.btn-dwnld:hover{
+  background-color: blueviolet;
+  color: white;
+}
+button.btn-brws:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+button.login:hover{
+  background-color: blueviolet;
+  color: white;
+}
